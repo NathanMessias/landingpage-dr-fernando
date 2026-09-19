@@ -37,7 +37,7 @@
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
   <!-- Estilos -->
   <link rel="stylesheet" href="css/style.css">
@@ -79,14 +79,17 @@
   ============================================================ -->
   <header class="site-header" id="topo">
     <div class="wrap header-inner">
-      <a href="#topo" class="logo">Dr. Fernando Pequeno</a>
+      <a href="#topo" class="logo">
+        <img src="assets/img/logo-fernando.png" alt="Logo do Site" width="125" height="70" loading="eager">
+      </a>
 
       <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
         <a href="#emagrecimento">Emagrecimento</a>
         <a href="#teste-genetico">Teste Genético</a>
         <a href="#intolerancias">Intolerâncias</a>
-        <a href="#saude-40-mais">Saúde 40+</a>
-        <a href="#contato" class="nav-cta">Agende um atendimento</a>
+        <a href="#">Saúde da Mulher</a>
+        <a href="#">Saúde Masculina</a>
+        <a href="#saude-40-mais">40+</a>
       </nav>
 
       <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
@@ -101,20 +104,20 @@
          HERO
     ============================================================ -->
     <section class="hero">
-      <div class="wrap hero-inner">
-        <div class="hero-copy">
-          <p class="kicker">Sua jornada começa aqui</p>
-          <h1>Emagrecimento que transforma: rápido, saudável e duradouro.</h1>
-          <p class="lede">Sem perder massa magra, sem flacidez. Respeite seu corpo, seus valores e sua genética — e alcance resultados reais.</p>
-          <a href="#contato" class="btn btn-primary">Quero meu emagrecimento definitivo</a>
+        <img class="hero-img" src="assets/img/banner.png" alt="Paciente da Clínica Dr. Fernando Pequeno após acompanhamento de emagrecimento saudável" width="1200" height="800" loading="eager">
+        <div class="wrap">  
+          <div class="hero-section-first">
+            <h3>EMAGRECIMENTO QUE TRANSFORMA:</h3>
+            <h1>RÁPIDO, SAUDÁVEL E DURADOURO.</h1>
+            <h3>SUA JORNADA COMEÇA AQUI.</h3>
+            <p>Sem perder massa magra, sem ﬂacidez.
+              Respeite seu corpo, seus valores e sua
+              genética e alcance resultados reais</p>
+          </div>
+          <div class="hero-section-second">
+            <p><a href="https://wa.me/5562984201003" target="_blank" rel="noopener" aria-label="WhatsApp">QUERO MEU EMAGRECIMENTO DEFINITIVO</a></p>
+          </div>
         </div>
-
-        <div class="hero-media">
-          <!-- Substitua pela foto real da campanha (retrato, tons neutros) -->
-          <img src="assets/img/hero-placeholder.jpg" alt="Paciente da Clínica Dr. Fernando Pequeno após acompanhamento de emagrecimento saudável" width="640" height="800" loading="eager">
-          <div class="hero-media-accent" aria-hidden="true"></div>
-        </div>
-      </div>
     </section>
 
     <!-- ============================================================
@@ -122,34 +125,44 @@
     ============================================================ -->
     <section class="section section-truth">
       <div class="wrap wrap-narrow">
-        <h2>Chega de confusão: a verdade sobre emagrecimento e saúde.</h2>
+        <p>CHEGA DE CONFUSÃO:</h3>
+        <h2>a verdade sobre emagrecimento e saúde.</h2>
         <p>O mundo nos bombardeia diariamente com informações confusas sobre emagrecimento e estilo de vida. Modismos, dietas, medicamentos milagrosos, conselhos de amigos&nbsp;&mdash; é fácil se sentir perdido e frustrado.</p>
         <p>Nossa missão é jogar luz sobre essa confusão. Nós existimos para provar que a transformação real é possível quando você tem as ferramentas certas e alguém que acredita em você tanto quanto você precisa acreditar em si mesmo.</p>
-        <blockquote>
+        <h3>
           Propomos uma transformação rápida, profunda e duradoura com uma mentoria multidisciplinar dedicada, te dando direção e foco.
-        </blockquote>
+        </h3>
       </div>
+    </section>
+
+    <!-- ============================================================
+         SEÇÃO VÍDEO EM LOOP
+    ============================================================ -->
+    <section class="section section-truth" style="background-color: black;">
     </section>
 
     <!-- ============================================================
          SAÚDE INTEGRAL / PROGRAMA DE 90 DIAS
     ============================================================ -->
     <section class="section section-program" id="programa">
-      <div class="wrap">
-        <div class="program-grid">
-          <div class="program-copy">
-            <p class="kicker">Saúde integral</p>
-            <h2>Uma abordagem integrativa e inteligente.</h2>
-            <p>Um acompanhamento médico lado a lado, desenhado para você. Em um programa de 90 dias, você terá um plano alimentar direcionado, com suporte e monitoramento semanal para alcançar resultados de emagrecimento que você nunca imaginou &mdash; de forma segura e saudável.</p>
-            <p>Os melhores recursos para você emagrecer definitivamente. Ao mesmo tempo em que emagrece, você aprende a cuidar dos pilares básicos da sua saúde: sono, intestino, massa muscular e a prescrição vitamínico-mineral e hormonal ideal. Uma estratégia que vai muito além da balança &mdash; é voltar a viver bem, com vitalidade.</p>
-          </div>
-
-          <div class="program-stat">
-            <span class="stat-number">10</span>
-            <span class="stat-label">dias para o primeiro sprint de resultados</span>
-            <p>Prepare-se para ver resultados já nos primeiros dias, com um sprint inicial essencial para manter a motivação e impulsionar a sua transformação.</p>
-          </div>
+      <div class="wrap wrap-narrow">
+        <div class="program-header">
+          <p class="program-eyebrow">Saúde integral</p>
+          <h2 class="program-subtitle">Uma abordagem integrativa e inteligente</h2>
         </div>
+
+        <div class="program-copy">
+          <p>Um acompanhamento médico lado-a-lado desenhado para você. Em um programa de 90 dias, você terá um plano alimentar direcionado, com suporte e monitoramento semanal para alcançar resultados de emagrecimento que você nunca imaginou, de forma segura e saudável.</p>
+          <p>Os melhores recursos para você emagrecer definitivamente. Ao mesmo tempo em que emagrece, você aprende a cuidar dos pilares básicos da sua saúde: <strong>Sono, Intestino, Massa muscular e a Prescrição vitamínico-mineral e hormonal ótima.</strong> Uma estratégia que vai muito além da balança, é voltar a viver bem e com vitalidade.</p>
+        </div>
+
+        <div class="program-media">
+          <div class="program-media-item"></div>
+          <div class="program-media-item"></div>
+          <div class="program-media-item"></div>
+        </div>
+
+        <p class="program-highlight">Prepare-se para ver <strong>resultados já nos primeiros 10 dias</strong>, com um sprint inicial essencial para manter a motivação e impulsionar a sua transformação.</p>
       </div>
     </section>
 
@@ -160,8 +173,8 @@
     ============================================================ -->
     <section class="section section-services" id="servicos">
       <div class="wrap">
-        <p class="kicker">Além do emagrecimento</p>
-        <h2>Sua saúde em foco total.</h2>
+        <p class="kicker">Além do emagrecimento:</p>
+        <h2>Sua saúde em foco total</h2>
 
         <div class="services-grid">
 
@@ -212,7 +225,7 @@
       <div class="wrap wrap-narrow">
         <h2>Agende uma consulta e receba um direcionamento com base nas suas necessidades.</h2>
         <a href="https://wa.me/5562984201003" class="btn btn-primary" target="_blank" rel="noopener">Agende um atendimento</a>
-        <p class="partner-note">Tecnologia e parceria <strong>Sin</strong></p>
+        <p class="partner-note"><span class="sr-only">Tecnologia e parceria</span><span aria-hidden="true">método</span> <strong aria-hidden="true">Sin</strong></p>
       </div>
     </section>
 
@@ -223,19 +236,23 @@
   ============================================================ -->
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <div class="footer-brand">
-        <p class="logo">Dr. Fernando Pequeno</p>
+      <div class="footer-brand" style="margin: auto 0;">
+        <a href="#topo" class="logo">
+          <img src="assets/img/logo-fernando.png" alt="Logo do Site" width="185" height="80" loading="lazy">
+        </a>
+      </div>
+
+      <div class="footer-social" aria-label="Redes sociais">
+        <p style="margin-bottom: 0;"><a href="tel:+5562984201003">62 98420-1003</a></p>
         <address>
           Av. Minas Gerais, 142 - Sala 15, Anápolis, Brasil<br>
           CEP 75110-770
         </address>
-        <p><a href="tel:+5562984201003">62 98420-1003</a></p>
-      </div>
-
-      <div class="footer-social" aria-label="Redes sociais">
-        <a href="https://wa.me/5562984201003" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
-        <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
+        <div style="display: flex;">
+          <a href="https://wa.me/5562984201003" target="_blank" rel="noopener" aria-label="WhatsApp" style="margin-right: 6px;"><img src="assets/img/whatsapp.png" alt="WhatsApp" width="28" height="28" loading="lazy"></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram" style="margin-right: 6px;"><img src="assets/img/instagram.png" alt="Instagram" width="28" height="28" loading="lazy"></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><img src="assets/img/youtube.png" alt="YouTube" width="34" height="30" loading="lazy"></a>
+        </div>
       </div>
     </div>
     <p class="copyright">&copy; <span id="year">2026</span> Clínica Dr. Fernando Pequeno. Todos os direitos reservados.</p>
